@@ -1,0 +1,15 @@
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\Tester.exe
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\Tester.pdb
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\Clarks.SAP.Connector.dll
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\Clarks.SAP.Connector.pdb
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.csprojAssemblyReference.cache
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.frmMain.resources
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.Properties.Resources.resources
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.csproj.GenerateResource.cache
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.csproj.CopyComplete
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.exe
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\obj\Debug\Tester.pdb
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\sapnco.dll
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\sapnco_utils.dll
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\Tester\bin\Debug\Tester.exe.config

@@ -1,0 +1,22 @@
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\obj\Debug\ResolveAssemblyReference.cache
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\obj\Debug\Tester.Properties.Resources.resources
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\obj\Debug\Tester.frmMain.resources
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\bin\Debug\Tester.exe
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\bin\Debug\Tester.pdb
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\obj\Debug\Tester.exe
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\obj\Debug\Tester.pdb
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\bin\Debug\sapnco.dll
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\bin\Debug\sapnco_utils.dll
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\bin\Debug\Clarks.SAP.Connector.pdb
+C:\VSS\Clarks Biztalk SAP Adapter 3.0\Tester\bin\Debug\Clarks.SAP.Connector.dll
+C:\VSS\Clarks.SAP.Connector\Tester\bin\Debug\Tester.exe
+C:\VSS\Clarks.SAP.Connector\Tester\bin\Debug\Tester.pdb
+C:\VSS\Clarks.SAP.Connector\Tester\bin\Debug\Clarks.SAP.Connector.dll
+C:\VSS\Clarks.SAP.Connector\Tester\bin\Debug\Clarks.SAP.Connector.pdb
+C:\VSS\Clarks.SAP.Connector\Tester\obj\Debug\ResolveAssemblyReference.cache
+C:\VSS\Clarks.SAP.Connector\Tester\obj\Debug\Tester.frmMain.resources
+C:\VSS\Clarks.SAP.Connector\Tester\obj\Debug\Tester.Properties.Resources.resources
+C:\VSS\Clarks.SAP.Connector\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+C:\VSS\Clarks.SAP.Connector\Tester\obj\Debug\Tester.exe
+C:\VSS\Clarks.SAP.Connector\Tester\obj\Debug\Tester.pdb

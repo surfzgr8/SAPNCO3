@@ -1,0 +1,1046 @@
+**** Trace file opened at 2011-02-01 11:30:50+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 11:30:50.905
+SAP.Middleware.Connector.RfcInvalidStateException: No DestinationConfiguration defined
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+>> Error entry 2011-02-01 11:30:50.920
+SAP.Middleware.Connector.RfcInvalidStateException: No DestinationConfiguration defined
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+   at SAP.Middleware.Connector.RfcServer..ctor(String rfcServerName, RfcConfigParameters configParameters, Type[] functionHandlers, RfcRepository repository)
+   at SAP.Middleware.Connector.RfcServerManager.GetServer(String serverName, Type[] rfcFunctionHandlers, RfcRepository repository)
+>> Error entry 2011-02-01 11:31:07.264
+SAP.Middleware.Connector.RfcInvalidStateException: No DestinationConfiguration defined
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+>> Error entry 2011-02-01 11:31:07.264
+SAP.Middleware.Connector.RfcInvalidStateException: No DestinationConfiguration defined
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+   at SAP.Middleware.Connector.RfcServer..ctor(String rfcServerName, RfcConfigParameters configParameters, Type[] functionHandlers, RfcRepository repository)
+   at SAP.Middleware.Connector.RfcServerManager.GetServer(String serverName, Type[] rfcFunctionHandlers, RfcRepository repository)
+**** Trace file opened at 2011-02-01 11:32:53+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 11:32:53.342
+Failure to create pool for destination SAP_CLIENT_CONFIG
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.2.17.78:3301' not reached
+TIME        Tue Feb 01 11:32:53 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.2.17.78:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2011-02-01 11:32:53.358
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.2.17.78:3301' not reached
+TIME        Tue Feb 01 11:32:53 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.2.17.78:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   at SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2011-02-01 11:32:53.358
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.2.17.78:3301' not reached
+TIME        Tue Feb 01 11:32:53 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.2.17.78:3301
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   at SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+   at SAP.Middleware.Connector.RfcDestination.get_SystemAttributes()
+   at SAP.Middleware.Connector.RfcRepositoryManager.GetRepository(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcServer..ctor(String rfcServerName, RfcConfigParameters configParameters, Type[] functionHandlers, RfcRepository repository)
+   at SAP.Middleware.Connector.RfcServerManager.GetServer(String serverName, Type[] rfcFunctionHandlers, RfcRepository repository)
+**** Trace file opened at 2011-02-01 11:35:34+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 11:35:34.155
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcAbapMessageException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcAbapMessageException: TransactionIDHandler is not set on RfcServer SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:36:25.467
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcAbapMessageException thrown in SAP.Middleware.Connector.RfcServer.ARfcClearTIDImp when executing RFC server function ARFC_DEST_CONFIRM ---> SAP.Middleware.Connector.RfcAbapMessageException: TransactionIDHandler is not set RfcServer SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcClearTIDImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:36:27.389
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+>> Error entry 2011-02-01 11:36:27.592
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 11:39:57+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 11:39:57.545
+SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:40:48.280
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcFunctionNotFoundException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:40:49.967
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 11:53:49+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 11:53:49.405
+SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:55:49.686
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcFunctionNotFoundException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:55:50.889
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 11:57:59+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 11:57:59.139
+SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:58:48.827
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcFunctionNotFoundException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 11:59:01.311
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 12:00:32+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 12:00:32.686
+SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 12:00:54.295
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcFunctionNotFoundException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 12:00:55.967
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 12:12:17+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 12:12:17.952
+SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 12:13:03.889
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcFunctionNotFoundException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+**** Trace file opened at 2011-02-01 12:41:54+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 12:41:54.733
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOU metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcAbapException
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2011-02-01 12:41:54.748
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOU metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcAbapException
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   at SAP.Middleware.Connector.ServerFunctionInfo.get_FunctionMetadata()
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 12:41:58.983
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcInvalidStateException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOU metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcAbapException
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 12:42:00.670
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 13:09:20+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 13:09:20.914
+SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 13:10:21.458
+SAP.Middleware.Connector.RfcServerApplicationException: Uncaught exception SAP.Middleware.Connector.RfcFunctionNotFoundException thrown in SAP.Middleware.Connector.RfcServer.ARfcDestShipImp when executing RFC server function ARFC_DEST_SHIP ---> SAP.Middleware.Connector.RfcFunctionNotFoundException: RFC Server function IDOC_INBOUND_ASYNCHRONOU not found in RFC server SAP_SERVER_CONFIG
+   at SAP.Middleware.Connector.RfcServer.ARfcDestShipImp(RfcServerContext ctx, IRfcFunction func)
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcServer.InvokeServerFunction(RfcConnection conn, ServerFunctionInfo serverFuncInfo, RfcServerFunction functionImp)
+   at SAP.Middleware.Connector.RfcServer.Dispatch(RfcConnection conn)
+>> Error entry 2011-02-01 13:10:24.302
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SAP.Middleware.Connector.RfcConnection.Dispatch()
+   at SAP.Middleware.Connector.RfcConnection.RfcServerWorkerThreadProc(Object rfcConnObj)
+**** Trace file opened at 2011-02-01 15:14:39+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-01 15:14:39.444
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into Byte[]
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetByteArray(Int32 index)
+**** Trace file opened at 2011-02-03 14:01:40+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 14:01:40.587
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD CREDAT of STRUCTURE EDI_DC40 (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 007 into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 14:02:02+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 14:02:02.040
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD CREDAT of STRUCTURE EDI_DC40 (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 007 into DATE (yyyyMMdd) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 14:54:11+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 14:54:11.045
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2011-02-03 14:54:11.092
+SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=36 on metadata of STRUCTURE EDI_DC40 failed ---> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcStructure.get_Item(Int32 index)
+**** Trace file opened at 2011-02-03 14:55:38+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 14:55:38.702
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2011-02-03 14:55:38.702
+SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=36 on metadata of STRUCTURE EDI_DC40 failed ---> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcStructure.get_Item(Int32 index)
+**** Trace file opened at 2011-02-03 14:55:45+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 14:55:45.514
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2011-02-03 14:55:45.545
+SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=36 on metadata of STRUCTURE EDI_DC40 failed ---> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcStructure.get_Item(Int32 index)
+**** Trace file opened at 2011-02-03 15:00:56+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:00:56.344
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2011-02-03 15:00:56.376
+SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=36 on metadata of STRUCTURE EDI_DC40 failed ---> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcStructure.get_Item(Int32 index)
+**** Trace file opened at 2011-02-03 15:04:46+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:04:46.065
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2011-02-03 15:04:46.096
+SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=36 on metadata of STRUCTURE EDI_DC40 failed ---> System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   at SAP.Middleware.Connector.RfcStructure.get_Item(Int32 index)
+**** Trace file opened at 2011-02-03 15:06:22+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:06:22.675
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD CRETIM of STRUCTURE EDI_DC40 (SETTER): cannot convert String into TIME ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert LS into TIME (HHmmss) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 15:07:13+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:07:13.315
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD CRETIM of STRUCTURE EDI_DC40 (SETTER): cannot convert String into TIME ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert LS into TIME (HHmmss) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 15:09:06+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:09:06.363
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD CRETIM of STRUCTURE EDI_DC40 (SETTER): cannot convert String into TIME ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert LS into TIME (HHmmss) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 15:11:24+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:11:24.755
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD CRETIM of STRUCTURE EDI_DC40 (SETTER): cannot convert String into TIME ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert LS into TIME (HHmmss) ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataTime.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 15:54:05+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:54:05.349
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 15:54:49+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:54:49.240
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 15:56:30+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:56:30.475
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 15:57:33+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:57:33.397
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot get value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 15:59:34+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 15:59:34.851
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot get value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 16:14:41+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 16:14:41.466
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 16:15:57+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 16:15:57.139
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 16:16:34+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 16:16:34.170
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 16:17:11+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 16:17:11.983
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 16:49:22+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 16:49:22.542
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 16:51:53+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 16:51:53.465
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot get value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 17:03:53+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:03:53.517
+SAP.Middleware.Connector.RfcInvalidStateException: Destination configuration already initialized
+   at SAP.Middleware.Connector.RfcDestinationManager.RegisterDestinationConfiguration(IDestinationConfiguration config)
+**** Trace file opened at 2011-02-03 17:11:19+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:11:19.332
+SAP.Middleware.Connector.RfcInvalidStateException: No DestinationConfiguration defined
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Trace file opened at 2011-02-03 17:29:52+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:29:52.214
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot get value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 17:30:24+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:30:24.792
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot get value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 17:36:30+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:36:30.967
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD TABNAM of TABLE [STRUCTURE EDI_DC40] (GETTER): cannot convert CHAR10 into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'System.String' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+>> Error entry 2011-02-03 17:37:45.608
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD TABNAM of TABLE [STRUCTURE EDI_DC40] (GETTER): cannot convert CHAR10 into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'System.String' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+>> Error entry 2011-02-03 17:39:08.108
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD TABNAM of TABLE [STRUCTURE EDI_DC40] (GETTER): cannot convert CHAR10 into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'System.String' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 17:47:29+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:47:29.080
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot set value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, IRfcStructure value)
+**** Trace file opened at 2011-02-03 17:48:15+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:48:15.893
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (SETTER): cannot convert STRUCTURE EDI_DC40 into TABLE [STRUCTURE EDI_DC40]
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, IRfcStructure value)
+**** Trace file opened at 2011-02-03 17:52:44+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 17:52:44.160
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER IDOC_CONTROL_REC_40 of FUNCTION IDOC_INBOUND_ASYNCHRONOUS (GETTER): cannot convert TABLE [STRUCTURE EDI_DC40] into IRfcStructure ---> System.InvalidCastException: Unable to cast object of type 'SAP.Middleware.Connector.RfcTable' to type 'SAP.Middleware.Connector.IRfcStructure'.
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Trace file opened at 2011-02-03 18:07:04+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 18:07:04.022
+SAP.Middleware.Connector.RfcInvalidStateException: TABLE [STRUCTURE EDI_DC40]: cannot set value (array storing element values is null)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Trace file opened at 2011-02-03 18:15:27+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 18:15:27.583
+SAP.Middleware.Connector.RfcCommunicationException: Transferred IDoc control records are empty (internal error)
+   at SAP.Middleware.Connector.CpicConnection.ThrowCpicErrorMsg(Int32 length, Int32 dataReceived)
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2011-02-03 18:16:43+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 18:16:43.381
+SAP.Middleware.Connector.RfcCommunicationException: Transferred IDoc control records are empty (internal error)
+   at SAP.Middleware.Connector.CpicConnection.ThrowCpicErrorMsg(Int32 length, Int32 dataReceived)
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2011-02-03 18:24:47+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-03 18:24:47.290
+SAP.Middleware.Connector.RfcAbapMessageException: EDI: Table passed to EDI_SEGMENTS_ADD_BLOCK is empty.
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Trace file opened at 2011-02-07 12:08:44+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-07 12:08:44.230
+Failure to create pool for destination SAP_CLIENT_CONFIG
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.2.17.78:3300' not reached
+TIME        Mon Feb 07 12:08:41 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.2.17.78:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+>> Error entry 2011-02-07 12:08:44.245
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.2.17.78:3300' not reached
+TIME        Mon Feb 07 12:08:41 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.2.17.78:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcConfigParameters options)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination d, Boolean forRepositoryCalls, String uniqueKey)
+   at SAP.Middleware.Connector.RfcConnectionManager.GetClient(RfcDestination destination, Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Trace file opened at 2011-02-10 12:31:11+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-10 12:31:11.085
+error when calling DDIF_FIELDINFO_GET via destination SAP_CLIENT_CONFIG (possibly caused by temporary unavailability of system DR3)
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.2.17.78:3300' broken
+TIME        Thu Feb 10 12:31:10 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.2.17.78:3300; L=0.0.0.0:2513
+SYSTEM CALL recv
+ERRNO       10053
+ERRNO TEXT  WSAECONNABORTED: Software caused connection abort
+COUNTER     3
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+>> Error entry 2011-02-10 12:31:11.101
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOUS metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of StructureOrTable EDI_DD40 metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcCommunicationException: destination SAP_CLIENT_CONFIG failed when calling DDIF_FIELDINFO_GET -- see log for details
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadata(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2011-02-10 12:31:11.101
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOUS metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of StructureOrTable EDI_DD40 metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcCommunicationException: destination SAP_CLIENT_CONFIG failed when calling DDIF_FIELDINFO_GET -- see log for details
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadata(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+**** Trace file opened at 2011-02-10 13:24:05+00:00 (GMT Standard Time)
+	SAP .NET Connector: 3, 0, 1, 0, Working directory: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug, Program: C:\VSS\Clarks Biztalk SAP Adapter 3.0\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.vshost.exe
+	Hardware: PC with Windows NT, Processor: 2x Intel 80686 (Mod 15 Step 2), Operating system: Microsoft Windows NT 5.1.2600 Service Pack 2, .NET CLR version: 2.0.50727.3053
+ 	SAP release: 720, Kernel release: 720, Kernel patch level: 78
+	Hostname: DEVSVR-014153, IP address: 172.20.8.9, IP_v6 address: 
+
+	Default trace level: None
+
+>> Error entry 2011-02-10 13:24:05.217
+error when calling DDIF_FIELDINFO_GET via destination SAP_CLIENT_CONFIG (possibly caused by temporary unavailability of system DR3)
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.2.17.78:3300' broken
+TIME        Thu Feb 10 13:24:05 2011
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.2.17.78:3300; L=0.0.0.0:2713
+SYSTEM CALL recv
+ERRNO       10053
+ERRNO TEXT  WSAECONNABORTED: Software caused connection abort
+COUNTER     3
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+>> Error entry 2011-02-10 13:24:05.233
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOUS metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of StructureOrTable EDI_DD40 metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcCommunicationException: destination SAP_CLIENT_CONFIG failed when calling DDIF_FIELDINFO_GET -- see log for details
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadata(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2011-02-10 13:24:05.233
+SAP.Middleware.Connector.RfcInvalidStateException: Lookup of function IDOC_INBOUND_ASYNCHRONOUS metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcInvalidStateException: Lookup of StructureOrTable EDI_DD40 metadata failed for destination SAP_CLIENT_CONFIG ---> SAP.Middleware.Connector.RfcCommunicationException: destination SAP_CLIENT_CONFIG failed when calling DDIF_FIELDINFO_GET -- see log for details
+   at SAP.Middleware.Connector.RfcRepository.Execute(RfcFunction function)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadataClassic(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupRecordMetadata(String name, RecordType recordType)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataClassic(String name)
+   at SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   at SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)

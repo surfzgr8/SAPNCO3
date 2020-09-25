@@ -1,0 +1,6 @@
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.dll
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\bin\Debug\Clarks.SAP.Connector.pdb
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\obj\Debug\Clarks.SAP.Connector.csproj.CoreCompileInputs.cache
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\obj\Debug\Clarks.SAP.Connector.csproj.CopyComplete
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\obj\Debug\Clarks.SAP.Connector.dll
+D:\Code\Tfs\Tfs\CI\Clarks.SAP.Connector\obj\Debug\Clarks.SAP.Connector.pdb
